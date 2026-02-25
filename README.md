@@ -46,6 +46,7 @@ After filtering for ICMP traffic only, I entered the private IP Address for the 
 <img width="1512" height="982" alt="Perpetual-Ping" src="https://github.com/user-attachments/assets/ad511652-bb88-4222-894a-6dc2b9a26f11" />
 Initiating a perpetual ping from the Windows VM to the Linux VM, using the ping command with -t.
 
+<img width="1512" height="982" alt="Create-rule-for-inbound-traffic" src="https://github.com/user-attachments/assets/541d672c-ec93-4fbe-aade-5d57de7ad262" />
 Disrupting the perpetual ping by creating a rule for all inbound traffic. In Azure, open the Network Security Group that the Linux VM is using and disable all incoming ICMP traffic.
 
 <img width="1512" height="982" alt="SetRule-Disabled-incoming-ICMP-Traffic" src="https://github.com/user-attachments/assets/caefbd9d-e63a-4b48-83fd-3abcf5ecde47" />
